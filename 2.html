@@ -1,0 +1,30 @@
+<!--La verdad, todo lo de HTML no se como poronga lo hice pero quedo bonito-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Contraseña</title>
+		<link rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+	</head>
+	
+	<body>
+		<div class="formulario">
+			<h1 >Iniciar sesion</h1>
+			<form method="post" name=form action="IniciarSesion">
+				<div class="username">
+					<input id="usuario" type="text" name="usuario">
+					<label for="">Usuario</label>
+				</div>
+				<div class="username">
+					<input id="contraseña" type="password" name="password" required>
+					<label for="">Contraseña</label>
+				</div>
+				<div class="iniciar">
+				<input id="boton" type="button" value="Iniciar" onclick="IniciarSesion()">
+				</div>
+			</form>
+		</div>	
+		<script src="1.js"></script>
+	</body>
+<html>
